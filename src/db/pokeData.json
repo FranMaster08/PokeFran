@@ -1,32 +1,26 @@
 [
     {
-        "id": "2adfe107-db77-4754-86e2-04da74253619",
-        "nombre": "Mew",
-        "tipo": "all",
-        "image": "img/Imagen-1631929612390-734968324151.png"
-    },
-    {
-        "id": "a7a9a47a-1035-44a1-af50-969cc652dc66",
-        "nombre": "Mew",
-        "tipo": "all",
-        "image": "img/Imagen-1631929618077-731455742151.png"
-    },
-    {
         "id": "dd39c7e0-13d8-4fbc-8e94-ab017f85ec7a",
         "nombre": "Mew",
-        "tipo": "all",
+        "tipo": "Psiquico",
         "image": "img/Imagen-1631929876045-828665703151.png"
     },
     {
         "id": "c77d3926-0697-48da-99da-b7748b92470a",
         "nombre": "Pikachu",
-        "tipo": "electrico",
+        "tipo": "Electrico",
         "image": "img/Imagen-1631930208879-22481084825.png"
     },
     {
         "id": "b5a2dbb9-f41a-44c9-ac6b-24c99d9e3250",
-        "nombre": "",
-        "tipo": "",
+        "nombre": "Charmander",
+        "tipo": "Fuego",
         "image": "img/Imagen-1631930309781-546617564.png"
+    },
+    {
+        "id": "8bfe8bb8-f7db-4952-a9b9-594fefc708a7",
+        "nombre": "Celebi",
+        "tipo": "Psiquico",
+        "image": "img/Imagen-1631987503296-284124274Celebig.gif"
     }
 ]

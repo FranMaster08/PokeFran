@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
-    <%- include('./partial/head.ejs') %>
-<body>
+    <%- include('./partial/head.ejs',{css : "../css/style.css"}) %>
+<body class="register">
     <%- include('./partial/header.ejs') %>
     <main>
-      <form action="/cargarPokemon" method="post" enctype="multipart/form-data">
+      <form class="Register-form" action="/cargarPokemon" method="post" enctype="multipart/form-data">
         <div>
             <label >Nombre</label>
             <input type="text" name="nombre">
@@ -18,7 +18,7 @@
             <input type="file" name="Imagen">
         </div>
         <div>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" class="btnEnviar">
         </div>
        </form>
     </main>

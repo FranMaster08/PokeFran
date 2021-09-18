@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
-    <%- include('./partial/head.ejs') %>
+    <%- include('./partial/head.ejs',{css : "./css/style.css"}) %>
 <body>
     <%- include('./partial/header.ejs') %>
-    <main>
+    <main class="list-poke">
         <% pokefranes.forEach(function(poke){ %>
             <%- include('./partial/menuItem.ejs',{poke: poke}) %>
         <% }); %>
