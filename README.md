@@ -3,6 +3,6 @@
 
 # Preview
 
-![Image text](https://github.com/FranMaster08/PokeFran/blob/master/preview/index.PNG)
+![](https://github.com/FranMaster08/PokeFran/blob/master/preview/index.PNG)
 
 
