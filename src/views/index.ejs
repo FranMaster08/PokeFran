@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es">
+    <%- include('./partial/head.ejs') %>
+<body>
+    <%- include('./partial/header.ejs') %>
+    <main>
+        <% pokefranes.forEach(function(poke){ %>
+            <%- include('./partial/menuItem.ejs',{poke: poke}) %>
+        <% }); %>
+       
+    </main>
+</body>
+</html>

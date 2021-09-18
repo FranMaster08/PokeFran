@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <%- include('./partial/head.ejs') %>
+<body>
+    <%- include('./partial/header.ejs') %>
+    <main>
+      <form action="/cargarPokemon" method="post" enctype="multipart/form-data">
+        <div>
+            <label >Nombre</label>
+            <input type="text" name="nombre">
+        </div>
+        <div>
+            <label >tipo</label>
+            <input type="text" name="tipo">
+        </div>
+        <div>
+            <label >Imagen</label>
+            <input type="file" name="Imagen">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+       </form>
+    </main>
+</body>
+</html>
