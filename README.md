@@ -4,7 +4,7 @@
 # Preview
 Pagina                     |  Preview
 :-------------------------:|:-------------------------:
-index                      | ![](https://github.com/FranMaster08/PokeFran/blob/master/preview/index.PNG)
+index                      | ![](https://github.com/FranMaster08/PokeFran/blob/master/preview/index.PNG =100x20 )
 
 
 
