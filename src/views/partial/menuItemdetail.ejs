@@ -8,5 +8,13 @@
             <%= poke.tipo %>
         </p> 
     </div>
+    <div class='formularios-detail'>
+        <form method="POST"  action="/<%= poke.id %>?_method=DELETE">
+            <input type="submit" value="Eliminar" name="delete" class="btnForm">
+        </form>
+        <form method="GET" action="/edit/<%= poke.id %>">
+            <input type="submit" value="Editar" name="Editar" class="btnForm btnFormEdit">
+        </form>
+    </div>
 
 </article>

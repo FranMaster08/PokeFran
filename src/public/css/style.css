@@ -132,8 +132,24 @@ header ul li a {
     margin-top: 30vh;
 }
 
-
-
+.formularios-detail{
+    display:flex;
+    justify-content: space-around;
+    width:25%;
+    margin: auto;
+}
+.btnForm{
+    background: tomato;
+    border: none;
+    color:white;
+    padding: 20px;
+    font-weight: bold;
+    border-radius:15px;
+    margin: 3px;
+}
+.btnFormEdit{
+    background: greenyellow;
+}
 @media (min-width: 600px) {
     .Register-form{
         width: 50vw;

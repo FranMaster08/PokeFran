@@ -1,4 +1,5 @@
 const mainRouter = require("./routes/index.routes");
+const methodOverride = require('method-override')
 const createError = require("http-errors");
 const express = require("express");
 const logger = require("morgan");
@@ -8,6 +9,7 @@ app.use(express.static(path.join(__dirname, "./public")));
 app.use(express.urlencoded({ extended: false }));
 app.use(logger("dev"));
 app.use(express.json());
+app.use(methodOverride('_method'))
 app.set("view engine", "ejs");
 app.set("views", "./src/views");
 app.use("/", mainRouter);

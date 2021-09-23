@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <%- include('./partial/head.ejs',{css : "../css/style.css"}) %>
+<body class="register">
+    <%- include('./partial/header.ejs') %>
+    <main>
+      <form class="Register-form" action="/<%= poke.id %>?_method=PUT" method="POST" enctype="multipart/form-data">
+        <input readonly type="hidden" name="id" value="<%= poke.id %>">   
+        <div>
+            <label >Nombre</label>
+            <input type="text" name="nombre" value="<%= poke.nombre %>">
+        </div>
+        <div>
+            <label >tipo</label>
+            <input type="text" name="tipo" value="<%= poke.tipo %>">
+        </div>
+        <div>
+            <label >Imagen</label>
+            <input type="file" name="Imagen">
+        </div>
+        <div>
+            <input type="submit" value="Enviar" class="btnEnviar">
+        </div>
+       </form>
+    </main>
+</body>
+</html>

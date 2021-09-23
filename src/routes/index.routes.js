@@ -20,4 +20,11 @@ router.get("/", controller.getList);
 router.get("/cargarPokemon", controller.getRegister);
 router.post("/cargarPokemon", upload.single("Imagen"), controller.insertPoke);
 router.get("/detail/:id", controller.getDetail);
+router.get("/edit/:id", controller.getEdit);
+router.put('/:id', upload.single("Imagen"), controller.editPokemon)
+router.delete('/:id', controller.deletePokemon)
+
+
+
+
 module.exports = router;
